@@ -251,7 +251,10 @@ footer{
 
 }
 
-@media screen and (max-width:412px){
+@media screen and (max-width:480px){
+    header{
+        width: auto;
+    }
     .galeria{
         align-items: center;
         width: 5rem;
@@ -261,7 +264,7 @@ footer{
     }
     .caixa{
         flex-wrap: wrap;
-        width: 20rem;
+        width: auto;
         justify-content: space-between;
       
     }
@@ -273,6 +276,7 @@ footer{
     }
     .principal{
         height: 50rem;
+        width: auto;
     }
     .titulo-principal{
         margin-top: 1rem;
@@ -287,7 +291,7 @@ footer{
        align-items: center;
     }
     .trabalhos li{
-       width: 380px;
+       width: auto;
        font-size: 1rem;
     }
     .titulo-works{
