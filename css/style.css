@@ -1,0 +1,306 @@
+
+
+header{
+    background: url("../imagens/polotno\ \(25\).png");
+    height: 15rem;
+    width: 100%;
+   
+    
+
+}
+.galeria{
+    box-sizing: border-box;
+    border: 2px solid #724a4a;
+    box-shadow: 5px 5px 30px 0 #534242;
+    border-radius: 50%;
+    width: 15rem;
+    height: 15rem;
+    overflow: hidden;
+}
+.galeria:hover{
+    transform: scale(1.2);
+}
+.galeria .fotos{
+    
+    width:500%;
+    animation-name: animacao;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+   
+}
+.galeria img{
+    width:19.9%;
+}
+@keyframes animacao {
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+    25% {margin-left:-100%;}
+    45% {margin-left:-100%;}
+    50% {margin-left:-200%;}
+    70% {margin-left:-200%;}
+    75% {margin-left:-300%;}
+    95% {margin-left:-300%;}
+    100% {margin-left:-400%;}
+
+    
+}
+
+.caixa {
+    position: relative;
+    margin: 0 auto;
+    width: 80rem;
+   
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+  
+
+}
+nav a {
+  
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size:22px;
+    text-decoration: none; 
+}
+nav a:hover{
+  
+    color: #c965c4;
+    text-decoration: none; 
+    transform: scale(1.5);
+
+    
+}
+body{
+    
+    background-color: black;
+   
+}
+.principal{
+   
+    border-top: 0.1px solid  #c965c4;;
+    height: 40rem;
+    background-color: black;
+    
+    
+   
+  
+}
+
+
+
+.titulo-principal{
+
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #c4a9a9;
+    font-size:2rem;
+    padding: 4rem;
+    margin-top: 5rem;
+
+    
+   
+}
+.titulo-principal:hover{
+    color: #c965c4;
+}
+
+.paragrafo-principal{
+    font-family: 'Montserrat', sans-serif;
+    padding: 2rem;
+    color: #ffe4c4;
+    font-size: 1rem;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 1.8;
+   
+    
+}
+
+.trabalhos {
+
+    border-top: 0.1px solid #c965c4;;
+    background-color: black;
+    width: auto;
+    height: 50rem;
+    margin: 0 auto;
+    padding: 5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #c4a9a9;
+    background: url("../imagens/polotno\ \(24\).png");
+
+}
+.titulo-works{
+    text-align: center;
+    font-size: 50px;
+    padding: 5rem;
+    
+   
+
+}
+.titulo-works:hover{
+    color: #c965c4;
+}
+.trabalhos li {
+   
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 2rem 1.2rem;
+    box-sizing: border-box;
+    border: 1px solid #b879b2;
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px 0 #534242;
+
+
+
+}
+.trabalhos li:hover {
+    border-color:#c965c4;
+    
+    background-color: black;
+
+}
+.trabalhos li:hover h2{
+    font-size:2rem;
+}
+
+
+
+.trabalhos h2{
+    font-size: 1.8rem;
+   
+}
+.trabalhos-descricao{
+   font-size: 1.2rem;
+   line-height: 1.5;
+   
+
+}
+.art{
+    width: 5rem;
+    
+}
+.video {
+    
+	width: 75rem;
+	margin: 10em auto;
+    
+    
+
+}
+.video:hover{
+    transform: scale(1.1);
+    
+}
+footer{
+	display: flex;
+    flex-direction: column;
+	background: url("../imagens/polotno\ \(25\).png");
+	height: 20rem;
+    align-items: center;
+    justify-content: space-around;
+   
+
+}
+.imagem1{
+    width:10rem;
+    height: 10rem;
+    margin-top: 1rem;
+    border-radius: 10rem;
+    box-shadow: 5px 5px 30px 0 #534242; 
+    animation: fadeInFadeOut 1s linear infinite;
+    
+}
+@keyframes fadeInFadeOut{
+    0% {opacity: 1;}
+    50% {opacity: 0.8;}
+    100%{opacity: 1;}
+}
+.links-footer{
+    display: flex;
+    padding:1rem;
+    width: 20rem;
+    justify-content: space-between;
+}
+.links-footer:hover{
+    transform: scale(1.1);
+}
+
+.links-footer-style{
+    width: 2rem;
+   
+   
+}
+.Copyright {
+	color: #c4a9a9;
+	font-size: 1rem;
+	margin-top: 20px;
+
+
+}
+
+@media screen and (max-width:412px){
+    .galeria{
+        align-items: center;
+        width: 5rem;
+        height: 5rem;
+        margin-top: 2rem;
+        
+    }
+    .caixa{
+        flex-wrap: wrap;
+        width: 20rem;
+        justify-content: space-between;
+      
+    }
+    .caixa nav {
+        width: 10rem;
+        font-size: .2rem;
+        align-items: center;
+        
+    }
+    .principal{
+        height: 50rem;
+    }
+    .titulo-principal{
+        margin-top: 1rem;
+    }
+    .trabalhos{
+        margin-top: 2rem;
+        width: auto;
+        padding: 1rem;
+        display: flex;
+       flex-direction: column;
+       height: auto;
+       align-items: center;
+    }
+    .trabalhos li{
+       width: 380px;
+       font-size: 1rem;
+    }
+    .titulo-works{
+       padding: 1rem;
+       margin: auto;
+    }
+    .video{
+        display: flex;
+        flex-direction:column;
+        flex-wrap: wrap;
+        width: auto;
+        padding: 2rem;
+    }
+
+
+} 
