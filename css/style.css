@@ -251,7 +251,7 @@ footer{
 
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width:720px){
     header{
         width: auto;
     }
